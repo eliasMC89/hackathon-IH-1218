@@ -16,3 +16,16 @@ After doing some research and planning, the MVP will be the creation of a functi
 - Choose movie/product.
 - Research.
 - Choose landing page type.
+- Choose message.
+- Do wireframes.
+
+##Links
+
+Trello
+ - Link url
+
+Git
+ - URls for the project repo and deploy Link Repo Link Deploy
+
+Slides
+ - URls for the project presentation (slides) Link Slides.com
