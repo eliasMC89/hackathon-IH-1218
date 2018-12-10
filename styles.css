@@ -110,15 +110,21 @@ p {
   text-align: center;
 }
 
+.footer-images {
+  margin-bottom: 10px;
+}
+
+.phone-number {
+  margin-bottom: 20px;
+}
+
 .paypal{
   width: 6%;
-  float: right;
   margin: 10px;
 }
 
 .trusted-shops {
 width: 6%;
-float: right;
 margin: 10px;
 }
 
