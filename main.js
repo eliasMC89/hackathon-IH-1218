@@ -1,3 +1,5 @@
+'use strict';
+
 var slideIndex = 0;
 
 // Next/previous controls
