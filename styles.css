@@ -60,14 +60,9 @@ p {
 
 /* ---- components ---- */
 
-.button {
-  width: 50%;
-  background-color: blue;
-  color: #fff;
-  border: 1px solid #fff;
-  height: 50px;
-  border-radius: 10px;
+.button-link {
   font-family: 'Back to the future';
+  /* text-align: center; */
 }
 
 /* ---- section ---- */
@@ -86,7 +81,11 @@ section.main-page {
 }
 
 .button-section {
+  margin: 0 auto;
   text-align: center;
+  width: 50%;
+  height: 50px;
+  background-color: yellow;
 }
 
 /* ---- carrusel ---- */
