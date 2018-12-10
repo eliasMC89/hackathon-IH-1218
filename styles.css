@@ -46,7 +46,7 @@ p {
 
 /* ---- layout ---- */
 
-.container {
+/* .container {
   margin: 0 20px;
 }
 
@@ -60,7 +60,7 @@ p {
     max-width: 728px;
     margin: 0 auto;
   }
-}
+} */
 
 
 /* ---- components ---- */
@@ -72,36 +72,74 @@ p {
 
 /* ---- section ---- */
 
+.nav-bar {
+  font-size: 25px;
+  height: 60px;
+}
+
+.logo {
+  padding: 20px;
+}
+
 section.main-page {
   border: 1px solid black;
 }
 
 .main-title-section {
   margin: 100px;
+  margin-top: 50px;
 }
 
 .main-title {
   text-align: center;
   font-family: 'Back to the future';
   font-size: 40px;
+  color: #E3F1FF;
+}
+
+.title-line {
+  width: 30%;
+  margin-top: 60px;
 }
 
 .description-section {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
+  font-size: 20px;
 }
 
-.description {
-  text-align: center;
+.description1,
+.description2 {
+  text-align: justify;
+}
+
+.description1 {
+  padding-bottom: 10px;
+}
+
+.description2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description-price {
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .button-section {
   margin: 0 auto;
   text-align: center;
-  width: 50%;
-  height: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+.button-link {
+  font-size: 35px;
+  /* color: black; */
+  padding: 12px;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #F4640D 10%, #FFDD01 100%);
 }
 
 /* ---- carrusel ---- */
@@ -121,6 +159,7 @@ section.main-page {
  display: none;
  height: 150px;
  border: 1px solid black;
+ text-align: center;
 }
 
 /* Next & previous buttons */
