@@ -19,13 +19,7 @@ After doing some research and planning, the MVP will be the creation of a functi
 - Choose message.
 - Do wireframes.
 
-##Links
+## Link
 
-Trello
- - Link url
+https://eliasmc89.github.io/hackathon-IH-1218/
 
-Git
- - URls for the project repo and deploy Link Repo Link Deploy
-
-Slides
- - URls for the project presentation (slides) Link Slides.com
