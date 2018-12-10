@@ -22,6 +22,9 @@ body {
   background-color: black;
 }
 
+img {
+  max-width: 100%;
+}
 
 /* ---- typography ---- */
 
@@ -62,7 +65,66 @@ p {
   }
 }
 
+.div-book {
+  width: 100%;
+}
 
+.book1 {
+  display: grid;
+  grid-template-columns: 409px 359px;
+  overflow: hidden;
+}
+.book2 {
+  display: grid;
+  grid-template-columns: 205px 322px 242px;
+  overflow: hidden;
+}
+
+
+.border-pics {
+  border: 1px solid white;
+}
+
+
+.look-book {
+  text-align: center;
+  font-family: "Back to the future";
+  src: url('./fonts/BTTF.ttf');
+}
+
+.one {
+  border-right: none;
+}
+
+.three {
+  border-right: none;
+}
+
+.four {
+  border-right: none;
+}
+
+.footer{
+  border-top: 1px solid white;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.paypal{
+  width: 6%;
+  float: right;
+  margin: 10px;
+}
+
+.trusted-shops {
+width: 6%;
+float: right;
+margin: 10px;
+}
+
+.name-company {
+  margin: 15px auto;
+}
 /* ---- components ---- */
 
 .button-link {
