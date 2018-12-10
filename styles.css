@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Back to the future";
+  src: url('./fonts/BTTF.ttf');
+}
+
 /* ---- reset ---- */
 
 html {
@@ -62,6 +67,7 @@ p {
   border: 1px solid #fff;
   height: 50px;
   border-radius: 10px;
+  font-family: 'Back to the future';
 }
 
 /* ---- section ---- */
@@ -76,6 +82,7 @@ section.main-page {
 
 .main-title {
   text-align: center;
+  font-family: 'Back to the future';
 }
 
 .button-section {
