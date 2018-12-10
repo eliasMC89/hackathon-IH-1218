@@ -1,18 +1,18 @@
 'use strict';
 
-var slideIndex = 0;
+let slideIndex = 0;
 
 // Next/previous controls
-function plusSlides(n) {
+function plusSlides (n) {
  showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
+function currentSlide (n) {
  showSlides(slideIndex = n);
 }
 
-function showSlides() {
+function showSlides () {
   console.log('showing slides!');
   var i;
   var slides = document.getElementsByClassName("mySlides");

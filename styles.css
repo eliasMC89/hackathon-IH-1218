@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 @font-face {
   font-family: "Back to the future";
   src: url('./fonts/BTTF.ttf');
 }
+
+
 
 /* ---- reset ---- */
 
@@ -15,14 +19,15 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 
 /* ---- typography ---- */
 
 body {
-  color: #111;
-  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-family: 'Montserrat';
   font-size: 16px;
   line-height: 147%;
 }
@@ -68,7 +73,7 @@ p {
 /* ---- section ---- */
 
 section.main-page {
-
+  border: 1px solid black;
 }
 
 .main-title-section {
@@ -78,6 +83,17 @@ section.main-page {
 .main-title {
   text-align: center;
   font-family: 'Back to the future';
+  font-size: 40px;
+}
+
+.description-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.description {
+  text-align: center;
 }
 
 .button-section {
@@ -85,6 +101,7 @@ section.main-page {
   text-align: center;
   width: 50%;
   height: 50px;
+  margin-bottom: 200px;
 }
 
 /* ---- carrusel ---- */
