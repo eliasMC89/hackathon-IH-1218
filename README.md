@@ -21,5 +21,7 @@ After doing some research and planning, the MVP will be the creation of a functi
 
 ## Link
 
+Ipad version:
+
 https://eliasmc89.github.io/hackathon-IH-1218/
 
